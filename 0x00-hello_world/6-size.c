@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * main - A program that prints the size of various computer types
-* Return 0 (SUCCESS)
+ * main - print out sizes of data types in c
+ * code by winny
+ * Return: 0 (SUCCESS)
  */
 int main(void)
 {
@@ -15,5 +16,5 @@ printf("size of an int: %1u byte(s)\n", (unsigned long)sizeof(b));
 printf("size of an int: %1u byte(s)\n", (unsigned long)sizeof(c));
 printf("size of an int: %1u byte(s)\n", (unsigned long long)sizeof(d));
 printf("size of a float:%1u byte(s)\n", (unsigned long)sizeof(f));
-return (0);
+	return (0);
 }
