@@ -5,8 +5,7 @@
  * @src: the source string
  * Return: the destination string
  */
-
-char *_strcat(char *dest, char *src);
+char *_strcat(char *des, char *src);
 {
 	int destlen = 0;
 	int srclen = 0;
